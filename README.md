@@ -103,3 +103,10 @@ In order to complete this assignment, you must do the following:
 ### Grading
 
 This assignment will be graded via peer assessment.
+
+### Assignment Progress Log - JD
+1. GitHub repository forked successfully
+2. Repository cloned and files downloaded to working directory
+3. Functions completed and tested
+4. Changes commited and pushed into GitHub
+
