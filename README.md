@@ -109,4 +109,5 @@ This assignment will be graded via peer assessment.
 2. Repository cloned and files downloaded to working directory
 3. Functions completed and tested
 4. Changes commited and pushed into GitHub
+5. Submission (PENDING)
 

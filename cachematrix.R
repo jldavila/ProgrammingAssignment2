@@ -40,14 +40,14 @@ cacheSolve <- function(x, ...) {
     
     # Calculate Inverse - If inverse doesn't exist yet
     data <- x$get()
-    mi <- solve(data, ...)
+    mi <- solve(data, ...) # Inverse calculation
     x$setinverse(mi)
     mi
 
 }
 
-
-mat_temp <- matrix(sample(1:10, 16, replace=T), 4, 4)
-mat_cache <- makeCacheMatrix(mat_temp)
-cacheSolve(mat_cache)
+## Sample commands to test executing of makeCacheMatrix & cacheSolve
+# mat_temp <- matrix(sample(1:10, 16, replace=T), 4, 4)
+# mat_cache <- makeCacheMatrix(mat_temp)
+# cacheSolve(mat_cache)
 
