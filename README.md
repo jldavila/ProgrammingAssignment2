@@ -58,7 +58,7 @@ function.
             }
             data <- x$get()
             m <- mean(data, ...)
-            x$setmean(m)
+            x$setmean(m) 
             m
     }
 
